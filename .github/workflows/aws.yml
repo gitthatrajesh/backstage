@@ -20,4 +20,4 @@ jobs:
 
       - name: Upload file
         run: |
-          aws s3 cp path/in/repo/myfile.txt s3://<BUCKET_NAME>/<PREFIX>/myfile.txt
+          aws s3 cp test.sh s3://demobucketkrish2/test.sh
